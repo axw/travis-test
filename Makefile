@@ -1,3 +1,3 @@
 install:
 	@echo ohai
-	@echo $(JUJU_MAKE_DEPS)
+	@echo $(JUJU_MAKE_GODEPS)
