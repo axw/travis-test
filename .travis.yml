@@ -1,5 +1,5 @@
 language: go
-before_script:
-  - export JUJU_MAKE_GODEPS=true
+install:
+  - make install JUJU_MAKE_GODEPS=true
 script:
   - go vet ./...
